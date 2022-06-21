@@ -311,13 +311,13 @@ async def update(bot, message):
 @Client.on_message(filters.command("cmd"))
 async def cmd(bot, message):
     buttons = [[
-        InlineKeyboardButton("⚡️ Main Channel ⚡️", url='t.me/KCFilmss')       
+        InlineKeyboardButton("ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ", url='t.me/netflixsource')       
         ],[
-        InlineKeyboardButton("🔰 Main Group 🔰", url='t.me/KC_Films')
+        InlineKeyboardButton("ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ", url='t.me/netflixsource')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
     await message.reply_photo(
-        photo="https://te.legra.ph/file/f58032b4b41f5335e0a33.jpg",
+        photo="https://telegra.ph/file/37ac3ff390ccb0e557fca.jpg",
         caption=script.START_TXT.format(message.from_user.mention),
         reply_markup=reply_markup,
         parse_mode="html")
