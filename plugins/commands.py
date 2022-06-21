@@ -50,8 +50,8 @@ async def start(client, message):
             ],[
             InlineKeyboardButton('ɴᴇᴛғʟɪx sᴏᴜʀᴄᴇ', url=f'http://t.me/NetflixSource')
             ],[
-            InlineKeyboardButton('ℹ️ Help', callback_data='help'),
-            InlineKeyboardButton('😊 About', callback_data='about')        
+            InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
+            InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')        
         ]]     
         reply_markup = InlineKeyboardMarkup(buttons)        
         await message.reply_photo(
@@ -88,12 +88,12 @@ async def start(client, message):
         return
     if len(message.command) ==2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('➕ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('⛑ Contact Owner', url=f'http://t.me/KCAjm')
+            InlineKeyboardButton('ɴᴇᴛғʟɪx sᴏᴜʀᴄᴇ', url=f'http://t.me/netflixsource')
             ],[
-            InlineKeyboardButton('ℹ️ Help', callback_data='help'),
-            InlineKeyboardButton('😊 About', callback_data='about')               
+            InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
+            InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')               
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_chat_action("typing")
@@ -245,7 +245,7 @@ async def start(client, message):
         file_id=file_id,
         caption=f_caption,
         protect_content=True if pre == 'filep' else False,
-        reply_markup=InlineKeyboardMarkup([[ InlineKeyboardButton('⚜️ Backup Channel ⚜️', url='https://t.me/+7AyTKA_SqdsyNWNl') ]])
+        reply_markup=InlineKeyboardMarkup([[ InlineKeyboardButton('ᴏᴜʀ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ', url='https://t.me/netflixsource') ]])
         )
 @Client.on_message((filters.command(["report"]) | filters.regex("@admins") | filters.regex("@admin")) & filters.group)
 async def report(bot, message):
@@ -281,7 +281,7 @@ async def bot(bot, message):
         InlineKeyboardButton("ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅꜱ", callback_data="commands"),
         InlineKeyboardButton("ᴇɴqᴜɪʀy", callback_data="enqury")
         ],[
-        InlineKeyboardButton("🔰 Main Group 🔰", url='https://t.me/KC_Films')
+        InlineKeyboardButton("ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ", url='https://t.me/+Q9zwlTUTjsc0OTA1')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
     await message.reply_chat_action("typing")
