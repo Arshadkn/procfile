@@ -754,7 +754,7 @@ async def auto_filter(client, msg, spoll=False):
 
  📂 ғᴏᴜɴᴅ ✨ ғɪʟᴇs ғᴏʀ ʏᴏᴜʀ ǫᴜᴇʀʏ : <code>{search}</code> 👇
  \n<b>✍️ Note:</b> ミ★ 𝙏𝙝𝙞𝙨 𝙈𝙚𝙨𝙨𝙖𝙜𝙚 𝙬𝙞𝙡𝙡 𝙗𝙚 𝘼𝙪𝙩𝙤-𝙙𝙚𝙡𝙚𝙩𝙚𝙙 𝙖𝙛𝙩𝙚𝙧 5 𝙈𝙞𝙣𝙪𝙩𝙚𝙨 𝙩𝙤 𝘼𝙫𝙤𝙞𝙙 𝘾𝙤𝙥𝙮𝙧𝙞𝙜𝙝𝙩 𝙄𝙨𝙨𝙪𝙚𝙨 ★彡"""
-    if imdb and imdb.get('PICS'):
+    if imdb and imdb.get('POSTER'):
         try:
             fmsg = await message.reply_photo(photo=imdb.get('POSTER'), caption=cap[:1024],
                                       reply_markup=InlineKeyboardMarkup(btn))
