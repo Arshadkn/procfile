@@ -23,14 +23,14 @@ async def start(client, message):
     if message.chat.type in ['group', 'supergroup']:
         buttons = [
             [
-                InlineKeyboardButton('ℹ️ Help', url=f"https://t.me/{temp.U_NAME}?start=help")
+                InlineKeyboardButton('ʜᴇʟᴘ', url=f"https://t.me/{temp.U_NAME}?start=help")
             ],
             [
-                InlineKeyboardButton('🔶 KC || File Channel 🔶', url=f"https://t.me/+ZtS8TtYNgI9jMTA1")
+                InlineKeyboardButton('ɴᴇᴛғʟɪx sᴏᴜʀᴄᴇ', url=f"https://t.me/Netflixsource")
             ],
             [
-                InlineKeyboardButton('⚜️ Backup Channel ⚜️', url="https://t.me/+7AyTKA_SqdsyNWNl"),
-                InlineKeyboardButton('🧲 Backup Group 🧲', url="https://t.me/KC_Filmz")
+                InlineKeyboardButton('ᴍᴏᴠɪᴇ ᴄʜᴀɴɴᴇʟ', url="https://t.me/+HJH2Izd08pBmYmM1"),
+                InlineKeyboardButton('ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ', url="https://t.me/+Q9zwlTUTjsc0OTA1")
             ],
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
