@@ -272,7 +272,7 @@ async def report(bot, message):
             await message.reply_text("✅ Your Report Successfully Submitted to the Admins")
 
 
-@Client.on_message(filters.command("bot"))
+@Client.on_message(filters.command("bojutsht"))
 async def bot(bot, message):
     buttons = [[
         InlineKeyboardButton("ᴅɪᴅɴ'ᴛ ɢᴇᴛ ᴍᴏᴠɪᴇ", callback_data="getmovie"),
@@ -293,17 +293,17 @@ async def bot(bot, message):
     await asyncio.sleep(50)
     await h.delete()
 
-@Client.on_message(filters.command("update"))
+@Client.on_message(filters.command("group"))
 async def update(bot, message):
     buttons = [[
-        InlineKeyboardButton("⚡️ Main Channel ⚡️", url='t.me/KCFilmss')       
+        InlineKeyboardButton("ᴍᴜsɪᴄ ɢʀᴏᴜᴘ", url='https://t.me/+dV5_6hCLgQ5mYzhl')       
         ],[
-        InlineKeyboardButton("🔰 Main Group 🔰", url='t.me/KC_Films')
+        InlineKeyboardButton("ғɪʟᴍ ɢʀᴏᴜᴘ", url='https://t.me/+Q9zwlTUTjsc0OTA1')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
     await message.reply_chat_action("typing")
     await message.reply_photo(
-        photo="https://te.legra.ph/file/f58032b4b41f5335e0a33.jpg",
+        photo="https://telegra.ph/file/85600bbee30cf6e6c6dfe.jpg",
         caption=script.UPDATE_CMD.format(message.from_user.mention),
         reply_markup=reply_markup,
         parse_mode="html")
