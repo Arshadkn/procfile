@@ -293,7 +293,7 @@ async def bot(bot, message):
     await asyncio.sleep(50)
     await h.delete()
 
-@Client.on_message(filters.command("group"))
+@Client.on_message(filters.command("groups"))
 async def update(bot, message):
     buttons = [[
         InlineKeyboardButton("ᴍᴜsɪᴄ ɢʀᴏᴜᴘ", url='https://t.me/+dV5_6hCLgQ5mYzhl')       
@@ -308,7 +308,7 @@ async def update(bot, message):
         reply_markup=reply_markup,
         parse_mode="html")
 
-@Client.on_message(filters.command("cmd"))
+@Client.on_message(filters.command("channels"))
 async def cmd(bot, message):
     buttons = [[
         InlineKeyboardButton("ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ", url='t.me/netflixsource')       
