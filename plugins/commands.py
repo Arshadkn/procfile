@@ -318,7 +318,7 @@ async def cmd(bot, message):
     reply_markup = InlineKeyboardMarkup(buttons)
     await message.reply_photo(
         photo="https://telegra.ph/file/37ac3ff390ccb0e557fca.jpg",
-        caption=script.CHANNEL_TXT.format(message.from_user.mention),
+        caption=script.CHANNELS_TXT.format(message.from_user.mention),
         reply_markup=reply_markup,
         parse_mode="html")
 
