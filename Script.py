@@ -30,18 +30,20 @@ class script(object):
 • /delall - delete the whole filters in a chat (chat owner only)"""
 
     HELP_TXT = """𝙷𝙴𝚈 {}
-𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
+ʜᴇʀᴇ ɪꜱ ᴍy ʜᴇʟᴩ ᴍᴇɴᴜ."""
 
     BOT_TXT = """𝐇𝐢 {},
-➪ How To Use This Bot
+➪ ᴀᴅᴅ ᴍᴇ ᴛᴏ ᴀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ ᴍᴇ ᴀᴅᴍɪɴ ᴛᴏ ɢᴇᴛ ғɪʟᴍs
 
-/update - To Join Our Main Channel, You can use this 😀"""
-    UPDATE_CMD = """𝐇𝐢 {}, 
-➪ To Working of This Bot, Join the Main Channel Below 
+ʀᴇᴍᴇᴍʙᴇʀ ᴛᴏ ᴊᴏɪɴ ᴏᴜʀ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ @NetflixSource 😀"""
+    
+    UPDATE_CMD = """ʜɪ {}, 
+➪ ᴛʜᴇsᴇ ᴀʀᴇ ᴏᴜʀ ʟɪsᴛ ᴏғ ɢʀᴏᴜᴘs
 
-➪ Joining Because of Updates of Bots and All Others are through Main Channel
+➪ ᴄʜᴇᴄᴋ /channels ᴛᴏ ɢᴇᴛ ʟɪsᴛ ᴏғ ᴄʜᴀɴɴᴇʟs
 
-➪ It is because of Copyright Issue is Very Low Compairing to Other Channels 😀"""
+➪ ᴍᴀᴋᴇ sᴜʀᴇ ᴛᴏ ᴊᴏɪɴ @NSUpdate ғᴏʀ ʀᴇᴘᴏʀᴛɪɴᴠ ɪssᴜᴇs """
+    
     START_TXT = """<b>𝖧i {}, <b>𝖭𝗂𝖼𝖾 𝗍𝗈 𝗆𝖾𝖾𝗍 𝗒𝗈𝗎 🙌</b>
 <i>𝖨'𝗆 𝗃𝗎𝗌𝗍 𝖺 𝗌𝗂𝗆𝗉𝗅𝖾 𝗉𝗋𝖾 - 𝖿𝗎𝗇𝖼𝗍𝗂𝗈𝗇𝖾𝖽 𝖺𝗎𝗍𝗈𝖿𝗂𝗅𝗍𝖾𝗋 𝖻𝗈𝗍</i>
     
@@ -60,8 +62,8 @@ class script(object):
 - Filter is the feature were users can set automated replies for a particular keyword and EvaMaria will respond whenever a keyword is found the message
 
 <b>NOTE:</b>
-1. KC Eva Bot should have admin privillage.
-2. only admins can add filters in a chat.
+1. Tom Holland Bot should have admin privillage.
+2. Only admins can add filters in a chat.
 3. alert buttons have a limit of 64 characters.
 
 <b>Commands and Usage:</b>
@@ -76,11 +78,11 @@ class script(object):
 
 <b>NOTE:</b>
 1. Telegram will not allows you to send buttons without any content, so content is mandatory.
-2. KC Eva Bot supports buttons with any telegram media type.
+2. Tom Holland Bot supports buttons with any telegram media type.
 3. Buttons should be properly parsed as markdown format
 
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/KCFilmss)</code>
+<code>[Button Text](buttonurl:https://t.me/NetflixSource)</code>
 
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
@@ -140,6 +142,10 @@ This module only works for my admins
 ○ 𝖲𝖾𝗋𝗏𝖾𝗋 : Heroku
 ○ 𝖣𝖺𝗍𝖺𝖻𝖺𝗌𝖾 : <a href='https://www.mongodb.com'>𝖬𝗈𝗇𝗀𝗈𝖣𝖡 𝖥𝗋𝖾𝖾 𝖳𝗂𝖾𝗋</a>
 ○ 𝖡𝗎𝗂𝗅𝖽 𝖲𝗍𝖺𝗍𝗎𝗌 : 𝖵9.8 [BeTa]"""
+    
+    CHANNELS_TXT = """ᴛʜᴇsᴇ ᴀʀᴇ ᴛʜᴇ ʟɪsᴛ ᴏғ ᴄʜᴀɴɴᴇʟs"""
+    
+
 
     STATUS_TXT = """📑 ғɪʟᴇs sᴀᴠᴇᴅ: <code>{}</code>
 👤 ᴜsᴇʀs: <code>{}</code>
