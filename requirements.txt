@@ -10,3 +10,4 @@ imdbpy
 heroku3
 datetime
 pynewtonmath
+imdbpy==2021.4.18
